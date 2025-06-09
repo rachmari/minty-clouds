@@ -3,6 +3,14 @@ import { useRouter } from 'next/router'
 export default function Post() {
   const router = useRouter()
   const { id } = router.query
+  
+  // Handle loading state and ensure `id` is a single string
+  if (!id || Array.isArray(id)) {
+    return <div>Loading...</div>
+  }
+
+  // ...the rest of your component that uses `id`
+}
 
   let post;
   if (id == "1") {
