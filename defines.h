@@ -1,14 +1,17 @@
-#ifndef _DEFINE_1
-#define _DEFINE_1
+#ifndef MATH_UTILS_H
+#define MATH_UTILS_H
 
-#define DEFINE_2
+// Define constants
+#define PI 3.14159265358979323846
+#define E  2.71828182845904523536
 
-#define DEFINE_3
+// Function declarations
+int add(int a, int b);
+int subtract(int a, int b);
+double multiply(double a, double b);
+double divide(double a, double b);
 
-#define HELLO_WORLD_1 1		
+double square_root(double x);
+double power(double base, double exponent);
 
-#define HELLO_WORLD_2 2		
-
-#define HELLO_WORLD_2 2
-
-#define HELLO_WORLD_2 3
+#endif // MATH_UTILS_H
