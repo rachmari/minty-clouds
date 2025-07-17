@@ -1,8 +1,8 @@
 #ifndef _DEFINE_1
-#define _DEFINE_2
-#define DEFINE_3
+#define _DEFINE_1
+#define DEFINE_2
 
-#define DEFINE_4
+#define DEFINE_3
 
 /* ----------------- The Linux-PAM return values ------------------ */
 
