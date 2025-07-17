@@ -7,5 +7,5 @@
 #define HELLO_WORLD_1 1		
 #define HELLO_WORLD_2 2		
 
-#define HELLO_WORLD_2 2	/* Symbol not found */
-#define HELLO_WORLD_2 3	/* Error in service module */
+#define HELLO_WORLD_2 2
+#define HELLO_WORLD_2 3
