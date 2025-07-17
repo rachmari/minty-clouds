@@ -1,29 +1,8 @@
-/*
- * <security/_pam_types.h>
- *
- * This file defines all of the types common to the Linux-PAM library
- * applications and modules.
- *
- * Note, the copyright+license information is at end of file.
- */
+#ifndef _DEFINE_1
+#define _DEFINE_2
+#define DEFINE_3
 
-#ifndef _SECURITY__PAM_TYPES_H
-#define _SECURITY__PAM_TYPES_H
-
-/* This is a blind structure; users aren't allowed to see inside a
- * pam_handle_t, so we don't define struct pam_handle here.  This is
- * defined in a file private to the PAM library.  (i.e., it's private
- * to PAM service modules, too!)  */
-
-typedef struct pam_handle pam_handle_t;
-
-/* ---------------- The Linux-PAM Version defines ----------------- */
-
-/* Major and minor version number of the Linux-PAM package.  Use
-   these macros to test for features in specific releases.  */
-#define __LINUX_PAM__ 1
-
-#define __LINUX_PAM_MINOR__ 0
+#define DEFINE_4
 
 /* ----------------- The Linux-PAM return values ------------------ */
 
